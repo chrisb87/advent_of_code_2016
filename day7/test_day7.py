@@ -17,6 +17,7 @@ class TestDay7Part1(unittest.TestCase):
 	def test_solve_part_1(self):
 		self.assertEqual(solve_part_1(), 115)
 
+class TestDay7Part2(unittest.TestCase):
 	def test_supports_ssl_example_1(self):
 		self.assertTrue(supports_ssl("aba[bab]xyz"))
 
