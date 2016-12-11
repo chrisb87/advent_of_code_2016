@@ -1,5 +1,4 @@
 import re
-import random
 
 class BotSwarm(object):
 	BOT_NUMBERS = re.compile(r"bot (\d+)")
