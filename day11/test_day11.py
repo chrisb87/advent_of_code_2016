@@ -58,6 +58,7 @@ class TestDay11(unittest.TestCase):
 			seen_hash(same1, 0), 
 			seen_hash(same1, 1))
 
+	@unittest.skip("slow")
 	def test_solve_part_1(self):
 		objects = (
 			'PG', 'PM',
@@ -77,6 +78,7 @@ class TestDay11(unittest.TestCase):
 		solution = solve(layout, objects, max_depth = 50)
 		self.assertEqual(len(solution), 47)
 
+	@unittest.skip("slow")
 	def test_solve_part_2(self):
 		objects = (
 			'PG', 'PM',
